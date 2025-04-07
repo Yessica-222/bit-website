@@ -1,11 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <title>Sobre Mí</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="about-index">
+    <!-- Header -->
+    <header class="header-index">
+      <h1>Yessica Alexandra Conejo Muñoz</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="nav-index">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenedor principal con main y aside -->
+    <div class="container">
+      <!-- Main: contenido profesional -->
+      <main>
+        <section class="story">
+          <h2>Sobre Mi</h2>
+          <p>
+            Nací en Popayán, tengo 23 años, mi color favorito es el azul, soy estudiante de ingenieria de sistemas.
+          </p>
+          <p>
+            Me encanta aprender nuevas herramientas, lenguajes de programación y
+            participar en proyectos donde pueda aplicar mis conocimientos y seguir
+            creciendo como desarrolladora.
+          </p>
+        </section>
+
+        <section class="skills">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>Desarrollo Web</li>
+            <li>Gestión de Bases de Datos</li>
+            <li>Seguridad Informatica</li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h2>Estudios</h2>
+          <table class="table" border="1">
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Título</th>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Fundación Universitaria de Popayán</td>
+              <td>Ingeniería de Sistemas</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="courses">
+          <h2>Cursos Realizados</h2>
+          <ul>
+            <li>Seminario de Desarrollo de Aplicaciones Web Full Stack en la Solución de Problemáticas</li>
+            <li>Diplomado en Programación en PHP</li>
+            <li>Diplomado en Programación en JAVA</li>
+          </ul>
+        </section>
+
+        <section class="hobbies">
+          <h2>Hobbies</h2>
+          <ol>
+            <li>Salir a caminar</li>
+            <li>Aprender nuevos lenguajes de programación</li>
+            <li>Escuchar música</li>
+            <li>Practicar deportes</li>
+          </ol>
+        </section>
+
+        <section class="project" id="projects">
+            <h2>Proyectos</h2>
+            <ul>
+              <li>
+                <strong>To-Do List App:</strong> Aplicación web que permite a los usuarios crear, actualizar y eliminar tareas pendientes. Incluye autenticación con JWT.
+              </li>
+              <li>
+                <strong>Sistema de Gestión para Salón de Belleza:</strong> Proyecto completo con base de datos, backend en Node.js, API REST y aplicación móvil en Android Studio.
+              </li>
+              <li>
+                <strong>Evaluador de Mobiliario Urbano:</strong> Aplicación para valorar el estado del mobiliario público con tablas cualitativas y cuantitativas.
+              </li>
+              <li>
+                <strong>Prototipo de pagina web sobre turismo en Popayán</strong>
+              </li>
+            </ul>
+          </section>
+          
+      </main>
+
+      <!-- Aside: contenido personal y multimedia -->
+      <aside class="aside">
+        <!-- Foto -->
+        <section class="photo">
+          <h2>Mi Foto</h2>
+          <img src="./assets/imagen.png" alt="Foto de Yessica Alexandra" />
+        </section>
+
+        <!-- Audio -->
+        <section class="audio">
+          <h2>Mensaje</h2>
+          <audio src="./assets/audio.mp3" controls></audio>
+        </section>
+
+        <!-- Video -->
+        <section class="video">
+          <h2>Video</h2>
+          <video src="/assets/video.mp4" controls></video>
+        </section>
+
+        <!-- Canción favorita -->
+        <section class="song">
+          <h2>Canción Favorita</h2>
+          <iframe
+            width="100%"
+            height="200"
+            src="https://www.youtube.com/embed/hGFfAQsFnDQ?si=CCvlsHHeAhuQ4AXo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <!-- Redes Sociales -->
+        <section class="social">
+          <h2>Redes Sociales</h2>
+          <div class="social-icons">
+            <a href="https://github.com/Yessica-222" target="_blank">
+              <img src="https://images.seeklogo.com/logo-png/30/2/github-logo-png_seeklogo-304612.png" alt="GitHub" />
+            </a>
+            <a href="https://x.com/?lang=es" target="_blank">
+              <img src="https://www.lowi.es/blog/wp-content/uploads/2023/10/twitter-X-1000x625.jpeg" alt="X" />
+            </a>
+            <a href="https://www.instagram.com/tu_usuario" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" alt="Instagram" />
+            </a>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Yessica Alexandra Conejo Muñoz</p>
+    </footer>
+  </body>
 </html>
