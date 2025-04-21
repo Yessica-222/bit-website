@@ -338,9 +338,9 @@ footer p {
 footer {
   background-color: #3c3c3c;
   color: white;
-  padding: 20px;
   text-align: center;
-  margin-top: auto;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 /* ------------------- RESPONSIVE DESIGN ------------------- */
