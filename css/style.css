@@ -7,7 +7,7 @@
 
 /* Estilo del body */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:  'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #edeafd;;
   color: #333;
   line-height: 1.6;
@@ -20,6 +20,10 @@ header {
   color: white;
   padding: 2rem 1rem;
   text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
 }
 
 header h1 {
